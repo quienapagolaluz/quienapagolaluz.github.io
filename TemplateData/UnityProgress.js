@@ -24,7 +24,7 @@ function UnityProgress(gameInstance, progress) {
   }
 }
 
-var gameInstance = UnityLoader.instantiate("gameContainer", "Build/QALL4.json", {
+var gameInstance = UnityLoader.instantiate("gameContainer", "Build/QALL5.json", {
   onProgress: UnityProgress,
   Module: {
     onRuntimeInitialized: function() { UnityProgress(gameInstance, "complete") }
